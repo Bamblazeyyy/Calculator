@@ -12,6 +12,12 @@ body{
     background: rgb(14, 2, 2);
 }
  
+h1{
+    color: white;
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+    margin-right: 70%;
+}
 
 /* Grid */
 .main-container {

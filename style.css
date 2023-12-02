@@ -12,11 +12,11 @@ p {
 
 body {
     margin-top: 10%;
-    background: #f0e5e5; /* Soft pastel background */
+    background: #f8f9fa; /* Light gray background */
 }
 
 h1 {
-    color: #2c3e50; /* Dark pastel blue */
+    color: #495057; /* Dark gray text */
     margin-bottom: 4%;
     margin-top: 0.5%;
     margin-right: 70%;
@@ -61,8 +61,8 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #2c3e50; /* Dark pastel blue text */
-    background-color: #ecf0f1; /* Light pastel blue background */
+    color: #495057; /* Dark gray text */
+    background-color: #f1f3f5; /* Light gray background */
     transition: all 0.3s ease-in;
 }
 
@@ -79,23 +79,24 @@ h1 {
 }
 
 .btn-num {
-    background-color: #3498db; /* Pastel blue */
-    color: #ffffff; /* White text */
+    background-color: #e9ecef; /* Light gray */
+    color: #495057; /* Dark gray text */
 }
 
 .btn-num:hover {
-    background-color: #2980b9; /* Darker pastel blue on hover */
+    background-color: #ced4da; /* Slightly darker gray on hover */
 }
 
 .btn-operator {
-    background-color: #e74c3c; /* Pastel red */
+    background-color: #adb5bd; /* Medium gray */
     color: #ffffff; /* White text */
 }
 
 .btn-operator:hover {
-    background-color: #c0392b; /* Darker pastel red on hover */
+    background-color: #868e96; /* Darker gray on hover */
 }
 
 .equal {
-    background-color: #f39c12; /* Pastel orange */
+    background-color: #212529; /* Dark gray */
+    color: #ffffff; /* White text */
 }

@@ -12,11 +12,11 @@ p {
 
 body {
     margin-top: 10%;
-    background: #f8f9fa; /* Light gray background */
+    background: rgb(14, 2, 2);
 }
 
 h1 {
-    color: #495057; /* Dark gray text */
+    color: white;
     margin-bottom: 4%;
     margin-top: 0.5%;
     margin-right: 70%;
@@ -61,8 +61,8 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #495057; /* Dark gray text */
-    background-color: #f1f3f5; /* Light gray background */
+    color: #FDFEFE;
+    background-color: #223850;
     transition: all 0.3s ease-in;
 }
 
@@ -75,28 +75,27 @@ h1 {
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.3s ease-in;
-    border: 0.3px solid rgba(128, 128, 128, 0.171); /* Light gray border */
+    border: 0.3px solid rgba(251, 253, 255, 0.171);
 }
 
 .btn-num {
-    background-color: #e9ecef; /* Light gray */
-    color: #495057; /* Dark gray text */
+    background-color: #223850;
+    color: #6885A7;
 }
 
 .btn-num:hover {
-    background-color: #ced4da; /* Slightly darker gray on hover */
+    background-color: #233B55;
 }
 
 .btn-operator {
-    background-color: #adb5bd; /* Medium gray */
-    color: #ffffff; /* White text */
+    background-color: #128094;
+    color: #ffffff;
 }
 
 .btn-operator:hover {
-    background-color: #868e96; /* Darker gray on hover */
+    background-color: rgb(52, 155, 196) !important;
 }
 
 .equal {
-    background-color: #212529; /* Dark gray */
-    color: #ffffff; /* White text */
+    background-color: #e77c18;
 }

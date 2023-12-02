@@ -12,11 +12,11 @@ p {
 
 body {
     margin-top: 10%;
-    background: rgb(14, 2, 2);
+    background: #f0e5e5; /* Soft pastel background */
 }
 
 h1 {
-    color: white;
+    color: #2c3e50; /* Dark pastel blue */
     margin-bottom: 4%;
     margin-top: 0.5%;
     margin-right: 70%;
@@ -61,8 +61,8 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #FDFEFE;
-    background-color: #223850;
+    color: #2c3e50; /* Dark pastel blue text */
+    background-color: #ecf0f1; /* Light pastel blue background */
     transition: all 0.3s ease-in;
 }
 
@@ -75,27 +75,27 @@ h1 {
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.3s ease-in;
-    border: 0.3px solid rgba(251, 253, 255, 0.171);
+    border: 0.3px solid rgba(128, 128, 128, 0.171); /* Light gray border */
 }
 
 .btn-num {
-    background-color: #223850;
-    color: #6885A7;
+    background-color: #3498db; /* Pastel blue */
+    color: #ffffff; /* White text */
 }
 
 .btn-num:hover {
-    background-color: #233B55;
+    background-color: #2980b9; /* Darker pastel blue on hover */
 }
 
 .btn-operator {
-    background-color: #128094;
-    color: #ffffff;
+    background-color: #e74c3c; /* Pastel red */
+    color: #ffffff; /* White text */
 }
 
 .btn-operator:hover {
-    background-color: rgb(52, 155, 196) !important;
+    background-color: #c0392b; /* Darker pastel red on hover */
 }
 
 .equal {
-    background-color: #e77c18;
+    background-color: #f39c12; /* Pastel orange */
 }
